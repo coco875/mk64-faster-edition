@@ -11,6 +11,7 @@ This repository does not contain assets. Compiling requires asset extraction fro
  ## More Information
  
  The goal of this rom is to add more speed in course so 50cc and 100cc is removed and now you have:
+ 
  ![image](https://user-images.githubusercontent.com/59367621/186519590-fa962ac4-a67f-4551-94b9-64539bf97ba6.png)
 
 
@@ -92,15 +93,3 @@ Some menu textures are compressed using a format called tkmk00. A byte-matching 
 	│   ├── raw: raw textures
   	│   └── standalone: whole textures
 	└── tools: build tools
-
-## Contributing
-
-Pull requests are welcome. For major changes, please discuss in the Discord.
-
-Files needing documentation:
-actors.c, actors_extended.c, main.c, kart_dma.c, race_logic.c, render_courses.c, skybox_and_splitscreen.c, staff_ghosts.c.
-Any inc.c file.
-
-Run `clang-format` on your code to ensure it meets the project's coding standards.
-
-Official Discord: [discord.gg/DuYH3Fh](https://discord.gg/DuYH3Fh)
