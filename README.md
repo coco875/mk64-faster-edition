@@ -8,6 +8,12 @@ It builds the following ROM:
 
 This repository does not contain assets. Compiling requires asset extraction from a prior copy of the game.
 
+ ## More Information
+ 
+ The goal of this rom is to add more speed in course so 50cc and 100cc is removed and now you have:
+ ![image](https://user-images.githubusercontent.com/59367621/186519590-fa962ac4-a67f-4551-94b9-64539bf97ba6.png)
+
+
 ## Dependencies
 
 The build system has the following package requirements:
