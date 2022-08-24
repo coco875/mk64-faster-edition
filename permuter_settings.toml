@@ -1,0 +1,16 @@
+# Optional configuration file for import.py. Put it in the root or in tools/
+# of the repo you are importing from.
+
+[decompme.compilers]
+"tools/ido5.3_recomp/cc" = "ido5.3"
+
+[preserve_macros]
+"gs?DP.*" = "void"
+"gs?SP.*" = "void"
+"G_.*" = "int"
+"VIRTUAL_.*" = "unsigned int"
+"PHYSICAL_.*" = "unsigned int"
+"TIME_TRIAL_.*" = "int"
+"TEXT_.*" = "int"
+"OS_.*" = "int"
+"SEGMENT_.*" = "int"
